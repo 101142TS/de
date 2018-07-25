@@ -16,4 +16,20 @@ Example:
 
  Prerequisites:
  Construct Library (2.5.0) http://construct.readthedocs.org/en/latest/
+ 
+ 
+ test1.dex.dat 就是字节码，无需输入字节码的数目
+ 
+ 例：od -x test1.dex.dat
 
+0000000      0062    2225    106e    3692    0000    000c    001f    0958
+0000020      0011                                                        
+0000022
+
+ Prerequisites中的Construct不是那个construct，而是
+ 
+ pip install Construct==2.5.2
+ 
+ 之前我装了个很奇怪的construct，然后一直提示说Magic，SLInt32之类的没定义
+ 
+ 感谢原作者的工作！
